@@ -5,6 +5,17 @@ US Ignite Smart Gigabit Community (SGC) Reverse Pitch Challenge
 Welcome to the Reverse Pitch Challenge! We are seeking ideas, business plans, design drafts, or prototypes with gigabit features to support city services! 
 Winning projects will receive prizes, opportunities to work with faculty-led research teams and Midwest Big Data Hub mentors after the hackathon, and a chance to showcase your work to the national Smart Gigabit Communities.
 
+## Why Gigabit?
+###	Smart communities will require applications that use a lot of bandwidth, such as
+-	Interactive, high-definition gaming
+-	Augmented Reality for education and training
+###	Significant reduction in latency (response times across the system), imagine 
+-	Knowing when a flash flood will hit your neighborhood
+-	Improved food delivery services with driverless cars
+###	Software-defined services that require customization, including
+-	Data transmission on a private, secure network
+-	Optimizing network resources in real-time, dynamically
+
 ## What are the Challenges?
 
 ### 1. Improved efficiency of City services with data visualization and analysis
@@ -23,9 +34,9 @@ We are seeking gigabit application ideas that can
 #### Data
 
 You can download the open municipal public works data from the [data folder](data/) (data will be available on the day of HackIllinois). In the data folder you will find:
-- A CSV file contains more than 30K public works log
-- A Geodatabase file contains city map and public works log
-- Shapefiles (if you don't have tool to process the geodatabase file)
+- A CSV file contains more than 30K public works log (all_cityworks_records.csv:)
+- Shapefiles and Metadata extracted from [this geodabase file](https://goo.gl/wcqWcc)
+*The coordinate system we use in these files is NAD 1983 StatePlane Illinois East FIPS 1201 Feet*
 
 ### 2. Enhanced monitoring of micro climate change in our City
 
