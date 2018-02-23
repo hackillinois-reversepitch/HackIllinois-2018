@@ -4,6 +4,8 @@ Please find the following files in the data folder:
 
 - all_cityworks_records.csv: The CSV file contains more than 30,000 service requests of public works across Nov 2009 to Feb 2018. You can find the service request id, description of the service request, date the service request was submitted, date the service request was solved, the status of the service request, the address of the service request, and the coordinate data to integreate with GIS/Map.
 
-- City_of_Champaign.gdb: The geoadbase file integrate the public works and maps
+- You can download the geodatabase file for the public works from here: https://goo.gl/wcqWcc
 
-You can also find the Metadata and shapefiles extracted from the geodabase file in this folder as well.
+- the metadata and shapefiles extracted from the geodabase file are in this folder as well.
+
+
