@@ -16,6 +16,8 @@ Winning projects will receive prizes, opportunities to work with faculty-led res
 -	Data transmission on a private, secure network
 -	Optimizing network resources in real-time, dynamically
 
+*Hint: Check [this file](Gigabit Application Maker.pdf) for some gigabit application ideas
+
 ## What are the Challenges?
 
 ### 1. Improved efficiency of City services with data visualization and analysis
