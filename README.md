@@ -2,7 +2,8 @@
 US Ignite Smart Gigabit Community (SGC) Reverse Pitch Challenge
 
 ## Hacking Socio-technical issues with Open municipal data
-Welcome to the Reverse Pitch Challenge! We are looking for the best designs for new smart gigabit solutions to support city services! Winning projects will receive prizes, opportunities to work with faculty-led research teams and Midwest Big Data Hub mentors after the hackathon, a chance to showcase your work at the national Smart Gigabit Communities Summit.
+Welcome to the Reverse Pitch Challenge! We are seeking ideas, business plans, design drafts, or prototypes with gigabit features to support city services! 
+Winning projects will receive prizes, opportunities to work with faculty-led research teams and Midwest Big Data Hub mentors after the hackathon, and a chance to showcase your work to the national Smart Gigabit Communities.
 
 ## What are the Challenges?
 
