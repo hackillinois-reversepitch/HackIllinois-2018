@@ -24,8 +24,8 @@ We are seeking gigabit application ideas that can
 
 You can download the open municipal public works data from the [data folder](data/) (data will be available on the day of HackIllinois). In the data folder you will find:
 - A CSV file contains more than 30K public works log
-- Geodatabase data for the public works
-- If you cannot process geodatabase file, you can also download separate shapefiles
+- A Geodatabase file contains city map and public works log
+- Shapefiles (if you don't have tool to process the geodatabase file)
 
 ### 2. Enhanced monitoring of micro climate change in our City
 
@@ -46,7 +46,7 @@ We are seeking gigabit applications ideas that can
 - Illinois Geospatial dataset (https://goo.gl/cDAV1x) 
 - Open sourced Weather API (https://openweathermap.org/api)
 
-### GIS Tools:
+### GIS Tools
 - QGIS (https://qgis.org/en/site). Geocoding is supported by QGIS plugins like MMQGIS described here (https://www.gislounge.com/how-to-geocode-addresses-using-qgis).
 - For Python users: Fiona (https://toblerity.org/fiona/manual.html) and GeoPandas (http://geopandas.org), also check this (https://pythongisresources.wordpress.com/category/packages)
 - For R users: https://cran.r-project.org/web/views/Spatial.html
