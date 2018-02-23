@@ -23,7 +23,7 @@ We are seeking gigabit application ideas that can
 #### Data
 
 You can download the open municipal public works data from the [data folder](data/) (data will be available on the day of HackIllinois). In the data folder you will find:
-- CSV file for more than 30K public works log
+- A CSV file contains more than 30K public works log
 - Geodatabase data for the public works
 - If you cannot process geodatabase file, you can also download separate shapefiles
 
