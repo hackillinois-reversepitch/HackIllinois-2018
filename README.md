@@ -16,7 +16,7 @@ Winning projects will receive prizes, opportunities to work with faculty-led res
 -	Data transmission on a private, secure network
 -	Optimizing network resources in real-time, dynamically
 
-*Hint: Check [this file](Gigabit Application Maker.pdf) for some gigabit application ideas
+*Hint: Check [this file](Gigabit Application Maker.pdf) for some gigabit application ideas*
 
 ## What are the Challenges?
 
