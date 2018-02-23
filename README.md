@@ -17,12 +17,14 @@ We are seeking gigabit application ideas that can
 - Easily integrate with GIS or online map (e.g. Google Maps)
 - Streamline workflows for the City to support environmental improvements
 
-```
-Hint: What are the common issues? Are there patterns? How to help users quickly identify and respond to the problems when they are working in the field?
+*Hint: What are the common issues? Are there patterns? How to help users quickly identify and respond to the problems when they are working in the field?*
 
-```
 #### Data
-You can download the open municipal public works data from the [data folder](data/) (data will be available on the day of HackIllinois).
+
+You can download the open municipal public works data from the [data folder](data/) (data will be available on the day of HackIllinois). In the data folder you will find:
+- CSV file for more than 30K public works log
+- Geodatabase data for the public works
+- If you cannot process geodatabase file, you can also download separate shapefiles
 
 ### Enhanced monitoring of micro climate change in our City
 
@@ -35,9 +37,8 @@ We are seeking gigabit applications ideas that can
 - Connect with mobile-app for community members to self report weather activities
 - Allow city officials to respond in real-time
 
-```
-Hint: What data to collect? How to collect, transmit, and visualize these data? How can users quickly identify potential weather threats and take actions?
-```
+*Hint: What data to collect? How to collect, transmit, and visualize these data? How can users quickly identify potential weather threats and take actions?*
+
 ## Resources
 - See.Click.Fix App: Online app from which the City of Champaign dataset originates (https://seeclickfix.com/)
 - Municipal geospatial dataset: GIS data from City of Champaign (https://goo.gl/wcqWcc)
@@ -45,7 +46,7 @@ Hint: What data to collect? How to collect, transmit, and visualize these data? 
 - Open sourced Weather API (https://openweathermap.org/api)
 
 ### GIS Tools:
-- QGIS (https://qgis.org/en/site) is a robust alternative to ArcGIS and is FOSS. Geocoding is supported by QGIS plugins like MMQGIS described here (https://www.gislounge.com/how-to-geocode-addresses-using-qgis).
+- QGIS (https://qgis.org/en/site). Geocoding is supported by QGIS plugins like MMQGIS described here (https://www.gislounge.com/how-to-geocode-addresses-using-qgis).
 - For Python users: Fiona (https://toblerity.org/fiona/manual.html) and GeoPandas (http://geopandas.org), also check this (https://pythongisresources.wordpress.com/category/packages)
 - For R users: https://cran.r-project.org/web/views/Spatial.html
 
