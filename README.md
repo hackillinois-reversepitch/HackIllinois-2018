@@ -56,7 +56,7 @@ We are seeking gigabit applications ideas that can
 ## Resources
 - See.Click.Fix App: Online app from which the City of Champaign dataset originates (https://seeclickfix.com/)
 - Municipal geospatial dataset: GIS data from City of Champaign (https://goo.gl/wcqWcc)
-- Illinois Geospatial dataset (https://goo.gl/cDAV1x) 
+- Illinois Geospatial dataset (http://clearinghouse.isgs.illinois.edu/data/elevation/illinois-height-modernization-ilhmp-lidar-data) 
 - Open sourced Weather API (https://openweathermap.org/api)
 
 ### GIS Tools
