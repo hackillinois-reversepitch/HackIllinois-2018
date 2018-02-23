@@ -7,7 +7,7 @@ Winning projects will receive prizes, opportunities to work with faculty-led res
 
 ## What are the Challenges?
 
-### Improved efficiency of City services with data visualization and analysis
+### 1. Improved efficiency of City services with data visualization and analysis
 
 The City of Champaign has provided multiple years of Public Works data, geospatial data, and service request data collected via the See.Click.Fix app.
 
@@ -27,7 +27,7 @@ You can download the open municipal public works data from the [data folder](dat
 - Geodatabase data for the public works
 - If you cannot process geodatabase file, you can also download separate shapefiles
 
-### Enhanced monitoring of micro climate change in our City
+### 2. Enhanced monitoring of micro climate change in our City
 
 The City of Champaign needs an improved micro climate monitoring application to help improve weather prediction and observation. The application will create the ability for municipal staff, including police and other emergency agencies, to pro-actively position resources in response to weather events moving across the community.
 
