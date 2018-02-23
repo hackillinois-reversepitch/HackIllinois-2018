@@ -1,0 +1,244 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City of Champaign, Public Works Dept.</origin>
+        <pubdate>20140829</pubdate>
+        <title>Parking_Lots_City_Owned</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This GIS polygon data layer is intended to convey the area and location of parking lots within the City of Champaign for the purposes of location.</abstract>
+      <purpose>This GIS polygon data layer is intended to convey the area and location of parking lots within the City of Champaign for the purposes of location.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140829</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>This was created in August 2014</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.246711</westbc>
+        <eastbc>-88.232417</eastbc>
+        <northbc>40.119828</northbc>
+        <southbc>40.105868</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Parking</themekey>
+        <themekey>Lots</themekey>
+        <themekey>Transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Champaign</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This layer has been created to the best ability of City of Champaign staff. It should be utilized for reference only.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign IL</cntorg>
+          <cntper>Brandon Haist</cntper>
+        </cntorgp>
+        <cntpos>GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>702 Edgebrook Dr</address>
+          <city>Champaign</city>
+          <state>IL</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-4700</cntvoice>
+        <hours>8 AM - 5 PM, M-F</hours>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign IL</cntorg>
+          <cntper>Shirl Johnson</cntper>
+        </cntorgp>
+        <cntpos>Parking Operations Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>702 Edgebrook Dr</address>
+          <city>Champaign</city>
+          <state>IL</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-4700</cntvoice>
+        <hours>8 AM - 5 PM, M-F</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Public Works Department</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.1.7333</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>19</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Illinois East FIPS 1201 Feet</mapprojn>
+          <transmer>
+            <sfctrmer>0.999975</sfctrmer>
+            <longcm>-88.33333333333333</longcm>
+            <latprjo>36.66666666666666</latprjo>
+            <feast>984250.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003280833333333333</absres>
+            <ordres>0.0003280833333333333</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Parking_Lots_City_Owned</enttypl>
+        <enttypd>Summary </enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>The nice parking lot name in text</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>The level of Parking Lot:
+
+Area = a loosely defined parking zone
+Deck = a parking garage or deck
+Lot = a confined parking lot
+Parkette = a miniature parking lot</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>address for site, assigned or approximate</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Name_Letter</attrlabl>
+        <attrdef>The preivous naming scheme used in past, recorded here for legacy paper references</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign, Information Technologies Dept.</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>102 N Neil St</address>
+          <city>Champaign</city>
+          <state>Illinois</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-8970</cntvoice>
+        <cntemail>it@ci.champaign.il.us</cntemail>
+        <hours>8:00am - 4:30pm</hours>
+        <cntinst>Please call or e-mail.</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>This GIS layer is available for viewing by all City of Champaign employees and the Champaign County GIS Consortium.  While the City of Champaign has made good faith efforts to ensure accuracy, completeness and timeliness of this information, the City does NOT guarantee the accuracy, completeness or timeliness of the material contained herein.  The City of Champaign assumes no liability for damages incurred directly or indirectly as a result of this information, application or product.  No warranties, expressed or implied, are provided for the data, its use, misuse, or its interpretation.  This data is not intended for complex, site-specific analysis.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180223</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign IL</cntorg>
+          <cntper>Brandon Haist</cntper>
+        </cntorgp>
+        <cntpos>GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>702 Edgebrook Dr</address>
+          <city>Champaign</city>
+          <state>IL</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-4700</cntvoice>
+        <hours>8 AM - 5 PM, M-F</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

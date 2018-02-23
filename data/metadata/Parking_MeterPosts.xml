@@ -1,0 +1,236 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City of Champaign, Public Works Dept.</origin>
+        <title>Parking_MeterPosts</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This point GIS data layer contains information on the locations of parking meter posts in the city of Champaign, Illinois,USA. Each post can contain 1 or 2 meters. This layer is related to the parking meter spaces layer.</abstract>
+      <purpose>This point GIS data layer contains information on the locations of parking meter posts in the city of Champaign, Illinois,USA.</purpose>
+    </descript>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.248326</westbc>
+        <eastbc>-88.228785</eastbc>
+        <northbc>40.121867</northbc>
+        <southbc>40.098919</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Parking</themekey>
+        <themekey>Administrative</themekey>
+        <themekey>Transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Champaign</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This layer has been created to the best ability of City of Champaign staff. It should be utilized for reference only.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign IL</cntorg>
+          <cntper>Brandon Haist</cntper>
+        </cntorgp>
+        <cntpos>GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>702 Edgebrook Dr</address>
+          <city>Champaign</city>
+          <state>IL</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-4700</cntvoice>
+        <hours>8 AM - 5 PM, M-F</hours>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign IL</cntorg>
+          <cntper>Shirl Johnson</cntper>
+        </cntorgp>
+        <cntpos>Parking Operations Supervisor</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>702 Edgebrook Dr</address>
+          <city>Champaign</city>
+          <state>IL</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-4700</cntvoice>
+        <hours>8 AM - 5 PM, M-F</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.1.7333</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1320</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Illinois East FIPS 1201 Feet</mapprojn>
+          <transmer>
+            <sfctrmer>0.999975</sfctrmer>
+            <longcm>-88.33333333333333</longcm>
+            <latprjo>36.66666666666666</latprjo>
+            <feast>984250.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003280833333333333</absres>
+            <ordres>0.0003280833333333333</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Parking_MeterPosts</enttypl>
+        <enttypd>Summary </enttypd>
+        <enttypds>ArcGIS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MeterNumb1</attrlabl>
+        <attrdef>If a dual meter post, this lists the meter ID of meter 1</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MeterNumb2</attrlabl>
+        <attrdef>If a dual meter post, this lists the meter ID of meter 2</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Duration</attrlabl>
+        <attrdef>How long 25 cents lasts in hours, no data entered</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Notes</attrlabl>
+        <attrdef>A general notes field, currently holds GPS coordinates</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FacilityID</attrlabl>
+        <attrdef>layer unique ID for use in Public Work's Cityworks software</attrdef>
+        <attrdefs>GIS Tech</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+        <attrdef>X Coordinate</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+        <attrdef>X Coordinate</attrdef>
+        <attrdefs>Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign, Information Technologies Dept.</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>102 N Neil St</address>
+          <city>Champaign</city>
+          <state>Illinois</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-8970</cntvoice>
+        <cntemail>it@ci.champaign.il.us</cntemail>
+        <hours>8:00am - 4:30pm</hours>
+        <cntinst>Please call or e-mail.</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>This GIS layer is available for viewing by all City of Champaign employees and the Champaign County GIS Consortium.  While the City of Champaign has made good faith efforts to ensure accuracy, completeness and timeliness of this information, the City does NOT guarantee the accuracy, completeness or timeliness of the material contained herein.  The City of Champaign assumes no liability for damages incurred directly or indirectly as a result of this information, application or product.  No warranties, expressed or implied, are provided for the data, its use, misuse, or its interpretation.  This data is not intended for complex, site-specific analysis.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20180223</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign IL</cntorg>
+          <cntper>Brandon Haist</cntper>
+        </cntorgp>
+        <cntpos>GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>702 Edgebrook Dr</address>
+          <city>Champaign</city>
+          <state>IL</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-4700</cntvoice>
+        <hours>8 AM - 5 PM, M-F</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

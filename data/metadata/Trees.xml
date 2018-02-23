@@ -1,0 +1,398 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City of Champaign, Public Works Dept.</origin>
+        <pubdate>20111201</pubdate>
+        <title>Trees</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This layer is maintained by the public works department. It is an inventory of tree sites originally performed by the Davey Tree Company in 2011. Updates have been applied by the GIS Technician in the Public Works Department. Additions and changes are determined by Forestry Staff based on GPS data collection, maps, site visits, and staff knowledge.</abstract>
+      <purpose>A GIS layer for displaying locations of tree sites throughout city of Champaign IL.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20110701</begdate>
+        </rngdates>
+      </timeinfo>
+      <current>Created in 2011, updated as needed</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.332790</westbc>
+        <eastbc>-88.226789</eastbc>
+        <northbc>40.157910</northbc>
+        <southbc>40.061985</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Forestry</themekey>
+        <themekey>Inventory</themekey>
+        <themekey>Trees</themekey>
+        <themekey>Mapping</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Champaign</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This layer has been created to the best ability of City of Champaign staff. It should be utilized for reference only.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign</cntorg>
+          <cntper>John Karduck </cntper>
+        </cntorgp>
+        <cntpos>Arborist</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>702 Edgebrook Dr</address>
+          <city>Champaign</city>
+          <state>IL</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-4700</cntvoice>
+        <hours>M-F</hours>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign IL</cntorg>
+          <cntper>Brandon Haist</cntper>
+        </cntorgp>
+        <cntpos>GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>702 Edgebrook Dr</address>
+          <city>Champaign</city>
+          <state>IL</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-4700</cntvoice>
+        <hours>8 AM - 5 PM, M-F</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>City of Champaign, Davey Tree</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.1.7333</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>27792</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Illinois East FIPS 1201 Feet</mapprojn>
+          <transmer>
+            <sfctrmer>0.999975</sfctrmer>
+            <longcm>-88.33333333333333</longcm>
+            <latprjo>36.66666666666666</latprjo>
+            <feast>984250.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0003280833333333333</absres>
+            <ordres>0.0003280833333333333</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Trees</enttypl>
+        <enttypd>Summary </enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Davey Tree ID.  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UNIQUEID</attrlabl>
+        <attrdef>Davey Tree ID.  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+        <attrdef>House address number.    Maintained.</attrdef>
+        <attrdefs>Champaign Address Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREET</attrlabl>
+        <attrdef>Address street name.  Maintained.</attrdef>
+        <attrdefs>Champaign Address Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ONSTR</attrlabl>
+        <attrdef>Street name the tree site is located on; house address can be different street if sites go around a building.  Maintained.</attrdef>
+        <attrdefs>Champaign Streets Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FROMSTR</attrlabl>
+        <attrdef>When driving down the block, street found behind.  Maintained.</attrdef>
+        <attrdefs>Champaign Street Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TOSTR</attrlabl>
+        <attrdef>When driving down the block, street found ahead.  Maintained.</attrdef>
+        <attrdefs>Champaign Street Layer</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SIDE</attrlabl>
+        <attrdef>side of house address tree site is on (domain list).  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SITE</attrlabl>
+        <attrdef>tree site number for address.  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SPP</attrlabl>
+        <attrdef>Tree Species (domain list).  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMMON</attrlabl>
+        <attrdef>Tree Common Name (Domain list).  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DBH</attrlabl>
+        <attrdef>Diameter at breast height; measures tree trunk circumference.  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TRUNKS</attrlabl>
+        <attrdef>Number of trunks on tree.  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COND</attrlabl>
+        <attrdef>Tree's health condition (domain list).  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MT</attrlabl>
+        <attrdef>Suggested maintenance for tree (domain list).  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GROW</attrlabl>
+        <attrdef>Growing Space type (domain list).  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SPACE</attrlabl>
+        <attrdef>Spaec size; minimum width of the growing space for root development.  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UTILITIES</attrlabl>
+        <attrdef>Overhead utilities (yes/no).  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INSPECT</attrlabl>
+        <attrdef>Further Inspection needed (Yes/No).  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HDSCAPEDAM</attrlabl>
+        <attrdef>Hardscape Damage (Yes/No).  Not maintained.
+</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>KLIR</attrlabl>
+        <attrdef>Clearance (domain list).  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBSERVE</attrlabl>
+        <attrdef>Observations (domain list).  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCTYPE</attrlabl>
+        <attrdef>Locatoin type (domain list).  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STAFF</attrlabl>
+        <attrdef>company staff initials.  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROBFAIL</attrlabl>
+        <attrdef>Probability of failure (domain list).  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DEFECT</attrlabl>
+        <attrdef>Size of Defect.  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>IMPACT</attrlabl>
+        <attrdef>Target rating.  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HAZARD</attrlabl>
+        <attrdef>Other risk factors.  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RATING</attrlabl>
+        <attrdef>Risk rating.  Not maintained.</attrdef>
+        <attrdefs>Davey Tree Company</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CULTIVAR</attrlabl>
+        <attrdef>The cultivar name, if tree species is a breed/cultivar.  Maintained.</attrdef>
+        <attrdefs>City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TREETYPE</attrlabl>
+        <attrdef>The current use catagory of the site (domain list).  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INV_DATE</attrlabl>
+        <attrdef>When site was registered in the inventory.  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>INSPECT_DT</attrlabl>
+        <attrdef>Last time tree site was visited.  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NOTES</attrlabl>
+        <attrdef>Space for extra text.  Maintained.</attrdef>
+        <attrdefs>Davey Tree Company &amp; City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FACILITYID</attrlabl>
+        <attrdef>a non-changing ID for use with a database program.  Maintained.</attrdef>
+        <attrdefs>City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SECTION</attrlabl>
+        <attrdef>PLSS section number, based on Champaign's WAMS.  Maintained.</attrdef>
+        <attrdefs>City Staff</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Special_Status</attrlabl>
+        <attrdef>Special status for the tree; for example Share the Cost or Planting by Contractor</attrdef>
+        <attrdefs>GIS Tech</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FAMILY</attrlabl>
+        <attrdef>Tree Family classification</attrdef>
+        <attrdefs>Forestry Section</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Staked_Status</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign, Information Technologies Dept.</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>102 N Neil St</address>
+          <city>Champaign</city>
+          <state>Illinois</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-8970</cntvoice>
+        <cntemail>it@ci.champaign.il.us</cntemail>
+        <hours>8:00am - 4:30pm</hours>
+        <cntinst>Please call or e-mail.</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>This GIS layer is available for viewing by all City of Champaign employees and the Champaign County GIS Consortium.  While the City of Champaign has made good faith efforts to ensure accuracy, completeness and timeliness of this information, the City does NOT guarantee the accuracy, completeness or timeliness of the material contained herein.  The City of Champaign assumes no liability for damages incurred directly or indirectly as a result of this information, application or product.  No warranties, expressed or implied, are provided for the data, its use, misuse, or its interpretation.  This data is not intended for complex, site-specific analysis.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180223</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Champaign IL</cntorg>
+          <cntper>Brandon Haist</cntper>
+        </cntorgp>
+        <cntpos>GIS Technician</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>702 Edgebrook Dr</address>
+          <city>Champaign</city>
+          <state>IL</state>
+          <postal>61820</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>217-403-4700</cntvoice>
+        <hours>8 AM - 5 PM, M-F</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
